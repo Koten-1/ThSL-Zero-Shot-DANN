@@ -24,9 +24,9 @@ One signer was permanently held out — zero clips in any training condition —
 
 | Model | Zero-shot accuracy |
 |---|---|
-| `solo-baseline` (single signer, quantity-matched) | 24% |
-| `pooled-baseline` (2 signers pooled) | 67% |
-| `pooled+DANN` (pooled + gradient-reversal signer-invariance objective) | 61% |
+| `solo-baseline` (single signer, quantity-matched) | 21% |
+| `pooled-baseline` (2 signers pooled) | 62% |
+| `pooled+DANN` (pooled + gradient-reversal signer-invariance objective) | 60% |
 
 Signer diversity produced the largest generalization gain by a wide margin; the domain-adversarial objective did not improve on the pooled baseline in this narrow (2-signer) setting — reported as a rigorously-tested negative result rather than omitted. A risk-coverage / selective-accuracy analysis (Area Under the Risk-Coverage Curve) is also reported for all three models, evaluating each one's ability to abstain from uncertain predictions rather than answer confidently but incorrectly.
 
