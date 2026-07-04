@@ -38,7 +38,7 @@ Signer diversity produced the largest generalization gain by a wide margin; the 
 - `figures/` — confusion matrices, data-quality comparison charts
 - `ThSL_Bridge_Study_Notes.md` — background study notes
 
-Note: the underlying video/keypoint dataset is not included here (large, and contains identifiable recordings of volunteer signers) — both notebooks expect `data/processed/` and `data/augmented/` mounted from Google Drive when run in Colab.
+The underlying multi-signer keypoint dataset is published separately on Kaggle: [km-research-multi-signer-dataset](https://www.kaggle.com/datasets/kornkachornkhumyato/km-research-multi-signer-dataset). Both notebooks expect `data/processed/` and `data/augmented/` mounted from Google Drive when run in Colab.
 
 ## Future direction
 
